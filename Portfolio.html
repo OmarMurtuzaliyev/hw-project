@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HW</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                width: auto;
+                height: auto;
+            }
+            header{
+                display: flex;
+                justify-content: space-around;
+                background-color: white;
+            }
+            .h1{
+                color: white;
+                background-color: aquamarine;
+                padding: 15px;
+                padding-left: 30px;
+                padding-right: 30px;
+                margin-right: 200px;
+            }
+            header ul{
+                list-style: none;
+            }
+            header ul li{
+                float: left;     
+                margin: 10px;   
+                font-size: larger;    
+                padding: 10px;
+                color: rgb(130, 130, 130);   
+            }
+            header ul li:hover{
+                color: whitesmoke;
+                background-color: rgb(150, 150, 150);
+            }
+            .container{
+                display: flex;
+                background-color:rgb(230, 242, 230);
+            }
+            .Portfolio{
+                width: 700px;
+                height: 700px;
+                margin: 0 auto;
+                background-color: white;
+                margin-top: 50px;
+            }
+            .Portfolio img{
+                width: 200px;
+                height: 200px;
+                float: left;
+                margin: 50px;
+                position: relative;
+            }
+            .Portfolio h2{
+                position: absolute;
+                top:-100px
+
+            }
+             .Connect{
+                margin-right: 20%;
+                margin-top:50px;
+                background-color: white;
+                width: 300px;
+                height: 150px;
+            }
+            .Connect img{
+                width: 55px;
+                height: 50px;
+                margin-left: 30px;
+            }
+            .Connect h2{
+                color: aquamarine;
+                border-bottom-style: solid;
+                border-radius: 2px;
+                margin: 20px;
+                border-color: rgb(180,180, 180);
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="h1">
+                <h1>ATSLC</h1>
+            </div>
+            <ul>
+                <a href="About.html"><li>About</li></a>
+                <a href="Portfolio.html"><li>Portfolio</li></a>
+                <a href="Contact.html"><li>Contact</li></a>
+            </ul>
+        </header>
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="Portfolio">
+                <img src="assets/IPAD.jpg" alt="smth smart here">
+                <h2 class="IPAD">Hangman</h2>
+                <img src="assets/w844TWsyvV7jNksWB6ma9J.jpg" alt="RPG game">
+                <h2 class="RPG">RPG games</h2>
+                <img src="assets/AirPods.jpg" alt="AirPods">
+                <h2 class="AirPods">Trivia Games</h2>
+                <img src="assets/Wired.jpg" alt="Wired AirPods">
+                <h2 class="Wired">Rutgers into Widgets</h2>
+            </div>
+            <div class="Connect">
+                <h2>Connect with me</h2>
+                <img src="assets/github Logo.jpg" alt="GitHub">
+                <img src="assets/Linkedin.jpg" alt="Linkedin">
+                <img src="assets/facebook.jpg" alt="facebook">
+            </div>
+        </div>
+    </body>
+</html>
